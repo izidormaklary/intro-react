@@ -9,17 +9,17 @@ First frontend framework I am working with, a lot of thing to learn about.
 
 ### 1st part the basics:
 
-- getting started with react
+- **getting started with react**
     * setting up development environment
     * finding good sources
     * thinking in React's way
 
 
-- Components
+- **Components**
   * formatting
   * handling
     
 
-- JSX
+- **JSX**
     * how to use it
     * variables

@@ -1,7 +1,7 @@
 const TodoListItem = (props) => (
     <>
-        <li key={props.item.toString()}>
-            <input type="checkbox"/>
+        <li>
+            <input type="checkbox" onChange={props.handleCheck} defaultChecked={props.checked} />
               {props.item}
         </li>
     </>

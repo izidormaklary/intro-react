@@ -34,3 +34,8 @@ build preview: https://react-intro-izidor.netlify.app
   * make checkbox checked/unchecked based on the State
     * at first update the state with the modifications
     * then render the checkbox accordingly
+  
+### 3rd Interactive State
+
+- creating reference to the input field -> using it in the function linked to the Add button
+- lifting up State, so both the form and a list has (read/write)access to the same array

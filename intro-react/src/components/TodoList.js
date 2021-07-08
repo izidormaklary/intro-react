@@ -1,13 +1,10 @@
 import TodoListItem from "./TodoListItem";
 import React, {useState} from "react";
 
-let counter = 1;
 
-function TodoList() {
-    const initialTodos = [
-        {name: "My first todo", checked: false, id: counter++},
-        {name: "My second todo", checked: false, id: counter++}];
-    const [todos, setTodos] = useState(initialTodos)
+
+function TodoList({todos, setTodos}) {
+
     function HandleOnChange(todo) {
         let tempArr = todos;
         let element = tempArr.find(el=> el.id === todo.id);

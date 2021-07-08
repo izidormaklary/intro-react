@@ -1,5 +1,5 @@
-const Submit=()=>(
-    <button type="submit" className="Submit">
+const Submit=(props)=>(
+    <button onClick={props.click} className="Submit">
         Add Todo
     </button>
 )
